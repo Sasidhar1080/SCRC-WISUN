@@ -1,0 +1,23 @@
+To upload the provided code to an EFRFG28 board using Simplicity Studio, follow these steps:
+
+1. Install Simplicity Studio: Simplicity Studio is a free software suite needed to start developing your application. Download the latest version of Simplicity Studio from the Silicon Labs website: http://www.silabs.com/simplicity-studio. 
+
+2. Set Up Your Kit: Provide power to the board by connecting the DBG USB connector to the PC using the provided USB cable. Move the switch to the AEM position.
+
+3. Detect Your Device: Click [**Refresh detected hardware**]. The board may take some time to appear due to driver installations for the debug adapter. Click the EFRFG28 board. This will verify that the installation was successful, identify the MCU on the kit hardware, and automatically configure the software tools for use with your device.
+
+4. Import the Project: From within the Simplicity Studio IDE, select Import -> MCU Project... from the Project menu. Click the Browse button and navigate to the local repository folder, then to the SimplicityStudio folder, select the .slsproj file for the board, click the Next button twice, and then click Finish.
+
+5. Copy the provided code into the main.c file in your project.
+
+6. Build the Project: Click on the hammer icon or select Project -> Build Project.
+
+7. Flash the Device: Click on the bug icon or select Run -> Debug. This will flash the device with your code.
+
+8. Run the Code: Click on the play icon or select Run -> Resume to start running your code on the device.
+
+Please note that these steps are based on the general process of using Simplicity Studio and the specific details might vary based on the exact model of your board and the configuration of your project.
+
+Sources:
+- [EFM32HG-SLSTK3400A-QuickStartGuide.pdf](https://www.silabs.com/documents/public/quick-start-guides/EFM32HG-SLSTK3400A-QuickStartGuide.pdf)
+- [Platform_applications > Blob > Master > Platform_pcnt_edge_counter_series1 > Edge Counting Using the EFM32/EFR32 Series 1 Pulse Counter (PCNT) > Setup](https://github.com/SiliconLabs/platform_applications/blob/master/platform_pcnt_edge_counter_series1/README.md)
