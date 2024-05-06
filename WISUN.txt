@@ -1,0 +1,28 @@
+qualcoom 
+-- Edge computing 
+
+
+Wisun
+
+antenna
+
+utilities
+position of antenna
+compare with old documents
+theme ofproject
+plan?
+compatable with existing router node
+
+WQ
+EV
+ENERGY
+
+
+5 leaf -1,1,1
+
+ofdm , fsk 
+
+
+challenge
+
+
